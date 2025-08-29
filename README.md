@@ -29,7 +29,7 @@
 Add your screenshots or GIFs here:
 - /love/screenshot-1.png
 - /love/screenshot-2.gif
- [Watch the demo (MP4)]()
+ [Watch the demo (MP4)](https://github.com/Mdsaif4363/Love-Calculator/blob/9b5d6b76274fe9e97eb255b594581146f8cdb026/Recording%202025-08-30%20020517.mp4)
 
 Example in Markdown:
 ```md
