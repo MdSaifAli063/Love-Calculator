@@ -32,7 +32,7 @@
 
 Example in Markdown:
 ```md
-![demo](https://github.com/Mdsaif4363/Love-Calculator/blob/35a60e9fb7d7b07cbaf4da6ad404c850149055b0/giffile.gif)
+![Demo]()
 
  📦 Project Structure
 
