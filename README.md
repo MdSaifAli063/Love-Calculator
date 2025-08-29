@@ -28,9 +28,6 @@
 
 ![image](https://github.com/Mdsaif4363/Love-Calculator/blob/4074c2e144ab66a7157aac2ae36d0c32c37ddb84/Screenshot%202025-08-30%20020253.png)
 
-## Gif
-![Demo](https://github.com/Mdsaif4363/Love-Calculator/blob/5a13e96f483548380dc61d04270345468e1a85df/giffile.gif)
-
 
 
 Example in Markdown:
