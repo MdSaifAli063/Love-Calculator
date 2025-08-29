@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Love Calculator</title>
+  <meta name="theme-color" content="#0f0514" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Animated heart background -->
+  <svg id="hearts" viewBox="-600 -400 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <symbol id="heart" viewBox="-69 -16 138 138">
+        <path d="M0,12 C 50,-30 110,50  0,120 C-110,50 -50,-30 0,12z" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <main class="app">
+    <section class="card" role="region" aria-labelledby="title">
+      <h1 id="title" class="title"><span class="emoji">💕</span> Love Calculator <span class="emoji">💘</span></h1>
+      <p class="subtitle">Find the chemistry between two hearts</p>
+
+      <form id="loveForm">
+        <div class="field">
+          <label for="yourName">Your Name</label>
+          <div class="input-wrap">
+            <input type="text" id="yourName" name="yourName" placeholder="e.g., Alex" autocomplete="off" maxlength="40" />
+            <button type="button" class="clear-btn" aria-label="Clear your name" title="Clear" onclick="clearInput('yourName')">×</button>
+          </div>
+        </div>
+
+        <div class="and" aria-hidden="true">❤️</div>
+
+        <div class="field">
+          <label for="partnerName">Partner's Name</label>
+          <div class="input-wrap">
+            <input type="text" id="partnerName" name="partnerName" placeholder="e.g., Sam" autocomplete="off" maxlength="40" />
+            <button type="button" class="clear-btn" aria-label="Clear partner's name" title="Clear" onclick="clearInput('partnerName')">×</button>
+          </div>
+        </div>
+
+        <button id="calcBtn" class="primary-btn" type="submit">Calculate ✨</button>
+      </form>
+
+      <div id="result" aria-live="polite" aria-atomic="true">
+        <div class="score" id="scoreRow">
+          <span class="badge-emoji" aria-hidden="true">💖</span>
+          <span id="scoreNumber">--</span><span class="percent">%</span>
+        </div>
+        <div class="meter"><div id="meterFill" class="meter-fill"></div></div>
+        <p id="loveMessage" class="message"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
