@@ -26,15 +26,14 @@
 
 ## 📸 Screenshots
 
-Add your screenshots or GIFs here:
-- /love/screenshot-1.png
-- /love/screenshot-2.gif
- [Watch the demo (MP4)](https://github.com/Mdsaif4363/Love-Calculator/blob/9b5d6b76274fe9e97eb255b594581146f8cdb026/Recording%202025-08-30%20020517.mp4)
+![image](https://github.com/Mdsaif4363/Love-Calculator/blob/4074c2e144ab66a7157aac2ae36d0c32c37ddb84/Screenshot%202025-08-30%20020253.png)
+
+
 
 Example in Markdown:
 ```md
 
-## 📦 Project Structure
+ 📦 Project Structure
 
 
 love/ ├─ index.html # The entire app (HTML + CSS + JS) └─ README.md # You are here
@@ -42,7 +41,7 @@ love/ ├─ index.html # The entire app (HTML + CSS + JS) └─ README.md # Yo
 
 ---
 
-## 🚀 Quick Start
+ 🚀 Quick Start
 
 - Double‑click love/index.html to open in your browser, or
 - Serve locally (recommended for consistent file paths):
@@ -54,7 +53,7 @@ Then navigate to the served URL (e.g., http://localhost:5173).
 
 ---
 
-## 🧪 How It Works (at a glance)
+ 🧪 How It Works (at a glance)
 
 - Names are sanitized (letters, spaces, hyphens, apostrophes).
 - A fun “compatibility” score is generated randomly between 10 and 100.
@@ -67,7 +66,7 @@ Key sections in index.html:
 
 ---
 
-## 🎨 Customize & Tweak
+ 🎨 Customize & Tweak
 
 Make it “more beautiful and attractive” or tune performance easily.
 
@@ -91,7 +90,7 @@ Tip: Balance density and animation with device performance (see below).
 
 ---
 
-## ♿ Accessibility
+ ♿ Accessibility
 
 - Proper form labels for inputs
 - aria-live region for announcing the score/message
@@ -100,7 +99,7 @@ Tip: Balance density and animation with device performance (see below).
 
 ---
 
-## ⚡ Performance Tips
+ ⚡ Performance Tips
 
 - Lower background hearts: reduce base and/or extra in spawnHearts()
 - Lower celebration hearts: reduce count in heartBurst()
@@ -109,7 +108,7 @@ Tip: Balance density and animation with device performance (see below).
 
 ---
 
-## 🛠️ Tech
+ 🛠️ Tech
 
 - HTML5
 - Modern CSS (variables, gradients, blur/glass)
@@ -119,7 +118,7 @@ Tip: Balance density and animation with device performance (see below).
 ---
 
 
-## 🌐 Deploy
+ 🌐 Deploy
 
 GitHub Pages:
 Put the love/ folder in your repo
@@ -128,11 +127,11 @@ Access at: https://.github.io//love/
 Netlify / Vercel:
 Drag‑and‑drop the love/ folder or set it as the publish directory
 
-## 📄 License
+ 📄 License
 
 MIT — feel free to use, modify, and share.
 
-## 💝 Acknowledgements
+ 💝 Acknowledgements
 
 Emoji magic courtesy of your device’s emoji font
 Gradient inspiration from modern glass UI patterns
