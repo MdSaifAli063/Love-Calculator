@@ -53,7 +53,7 @@ Then navigate to the served URL (e.g., http://localhost:5173).
 
 ---
 
- ##🧪 How It Works (at a glance)
+ ## 🧪 How It Works (at a glance)
 
 - Names are sanitized (letters, spaces, hyphens, apostrophes).
 - A fun “compatibility” score is generated randomly between 10 and 100.
