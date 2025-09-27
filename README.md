@@ -108,7 +108,7 @@ Tip: Balance density and animation with device performance (see below).
 
 ---
 
- 🛠️ Tech
+ ## 🛠️ Tech
 
 - HTML5
 - Modern CSS (variables, gradients, blur/glass)
