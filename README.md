@@ -131,7 +131,7 @@ Drag‑and‑drop the love/ folder or set it as the publish directory
 
 MIT — feel free to use, modify, and share.
 
- 💝 Acknowledgements
+## 💝 Acknowledgements
 
 Emoji magic courtesy of your device’s emoji font
 Gradient inspiration from modern glass UI patterns
