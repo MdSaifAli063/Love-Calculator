@@ -118,7 +118,7 @@ Tip: Balance density and animation with device performance (see below).
 ---
 
 
- 🌐 Deploy
+ ## 🌐 Deploy
 
 GitHub Pages:
 Put the love/ folder in your repo
