@@ -90,7 +90,7 @@ Tip: Balance density and animation with device performance (see below).
 
 ---
 
- ♿ Accessibility
+ ## ♿ Accessibility
 
 - Proper form labels for inputs
 - aria-live region for announcing the score/message
