@@ -99,7 +99,7 @@ Tip: Balance density and animation with device performance (see below).
 
 ---
 
- ⚡ Performance Tips
+ ## ⚡ Performance Tips
 
 - Lower background hearts: reduce base and/or extra in spawnHearts()
 - Lower celebration hearts: reduce count in heartBurst()
