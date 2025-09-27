@@ -127,7 +127,7 @@ Access at: https://.github.io//love/
 Netlify / Vercel:
 Drag‑and‑drop the love/ folder or set it as the publish directory
 
- 📄 License
+## 📄 License
 
 MIT — feel free to use, modify, and share.
 
