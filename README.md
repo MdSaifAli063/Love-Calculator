@@ -31,9 +31,9 @@
 
 
 Example in Markdown:
-```md
 
- 📦 Project Structure
+
+## 📦 Project Structure
 
 
 love/ ├─ index.html # The entire app (HTML + CSS + JS) └─ README.md # You are here
@@ -41,7 +41,7 @@ love/ ├─ index.html # The entire app (HTML + CSS + JS) └─ README.md # Yo
 
 ---
 
- 🚀 Quick Start
+## 🚀 Quick Start
 
 - Double‑click love/index.html to open in your browser, or
 - Serve locally (recommended for consistent file paths):
@@ -53,7 +53,7 @@ Then navigate to the served URL (e.g., http://localhost:5173).
 
 ---
 
- 🧪 How It Works (at a glance)
+ ##🧪 How It Works (at a glance)
 
 - Names are sanitized (letters, spaces, hyphens, apostrophes).
 - A fun “compatibility” score is generated randomly between 10 and 100.
