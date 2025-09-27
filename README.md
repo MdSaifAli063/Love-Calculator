@@ -59,14 +59,14 @@ Then navigate to the served URL (e.g., http://localhost:5173).
 - A fun “compatibility” score is generated randomly between 10 and 100.
 - The number animates up, the meter fills, a message appears, and hearts burst.
 
-Key sections in index.html:
+  Key sections in index.html:
 - CSS variables and theming: :root { --accent, --bg-1, ... }
 - Background hearts: SVG + requestAnimationFrame animation
 - Celebration hearts: .floating-heart with keyframed floatUp
 
 ---
 
- 🎨 Customize & Tweak
+## 🎨 Customize & Tweak
 
 Make it “more beautiful and attractive” or tune performance easily.
 
