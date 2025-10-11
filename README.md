@@ -28,8 +28,6 @@
 
 ![image](https://github.com/Mdsaif4363/Love-Calculator/blob/4074c2e144ab66a7157aac2ae36d0c32c37ddb84/Screenshot%202025-08-30%20020253.png)
 
-
-
 Example in Markdown:
 
 
@@ -121,11 +119,14 @@ Tip: Balance density and animation with device performance (see below).
  ## 🌐 Deploy
 
 GitHub Pages:
-Put the love/ folder in your repo
-In repository settings, enable Pages → deploy from main /root
-Access at: https://.github.io//love/
+
+- Put the love/ folder in your repo
+- In repository settings, enable Pages → deploy from main /root
+- Access at: https://.github.io//love/
+  
 Netlify / Vercel:
-Drag‑and‑drop the love/ folder or set it as the publish directory
+
+- Drag‑and‑drop the love/ folder or set it as the publish directory
 
 ## 📄 License
 
