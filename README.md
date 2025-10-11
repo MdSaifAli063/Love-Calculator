@@ -28,8 +28,6 @@
 
 ![image](https://github.com/Mdsaif4363/Love-Calculator/blob/4074c2e144ab66a7157aac2ae36d0c32c37ddb84/Screenshot%202025-08-30%20020253.png)
 
-Example in Markdown:
-
 
 ## 📦 Project Structure
 
