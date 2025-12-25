@@ -31,7 +31,6 @@
 
 ## 📦 Project Structure
 
-
 love/ ├─ index.html # The entire app (HTML + CSS + JS) └─ README.md # You are here
 
 
