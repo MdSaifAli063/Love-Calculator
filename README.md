@@ -26,18 +26,13 @@
 
 ## 📸 Screenshots
 
-Add your screenshots or GIFs here:
-- /love/screenshot-1.png
-- /love/screenshot-2.gif
+![image](https://github.com/Mdsaif4363/Love-Calculator/blob/4074c2e144ab66a7157aac2ae36d0c32c37ddb84/Screenshot%202025-08-30%20020253.png)
 
-Example in Markdown:
-```md
-[Watch the demo (MP4)]()
+---
+
 ## 📦 Project Structure
 
-
 love/ ├─ index.html # The entire app (HTML + CSS + JS) └─ README.md # You are here
-
 
 ---
 
@@ -53,13 +48,13 @@ Then navigate to the served URL (e.g., http://localhost:5173).
 
 ---
 
-## 🧪 How It Works (at a glance)
+ ## 🧪 How It Works (at a glance)
 
 - Names are sanitized (letters, spaces, hyphens, apostrophes).
 - A fun “compatibility” score is generated randomly between 10 and 100.
 - The number animates up, the meter fills, a message appears, and hearts burst.
 
-Key sections in index.html:
+  Key sections in index.html:
 - CSS variables and theming: :root { --accent, --bg-1, ... }
 - Background hearts: SVG + requestAnimationFrame animation
 - Celebration hearts: .floating-heart with keyframed floatUp
@@ -90,7 +85,7 @@ Tip: Balance density and animation with device performance (see below).
 
 ---
 
-## ♿ Accessibility
+ ## ♿ Accessibility
 
 - Proper form labels for inputs
 - aria-live region for announcing the score/message
@@ -99,7 +94,7 @@ Tip: Balance density and animation with device performance (see below).
 
 ---
 
-## ⚡ Performance Tips
+ ## ⚡ Performance Tips
 
 - Lower background hearts: reduce base and/or extra in spawnHearts()
 - Lower celebration hearts: reduce count in heartBurst()
@@ -108,7 +103,7 @@ Tip: Balance density and animation with device performance (see below).
 
 ---
 
-## 🛠️ Tech
+ ## 🛠️ Tech
 
 - HTML5
 - Modern CSS (variables, gradients, blur/glass)
@@ -117,15 +112,17 @@ Tip: Balance density and animation with device performance (see below).
 
 ---
 
-
 ## 🌐 Deploy
 
 GitHub Pages:
-Put the love/ folder in your repo
-In repository settings, enable Pages → deploy from main /root
-Access at: https://.github.io//love/
+
+- Put the love/ folder in your repo
+- In repository settings, enable Pages → deploy from main /root
+- Access at: https://.github.io//love/
+  
 Netlify / Vercel:
-Drag‑and‑drop the love/ folder or set it as the publish directory
+
+- Drag‑and‑drop the love/ folder or set it as the publish directory
 
 ## 📄 License
 
