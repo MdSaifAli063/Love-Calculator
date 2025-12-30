@@ -75,43 +75,42 @@
       }
     }
 
-    function calculateLove(){
-      let nameA = sanitizeName(yourNameInput.value);
-      let nameB = sanitizeName(partnerNameInput.value);
-      yourNameInput.value = nameA;
-      partnerNameInput.value = nameB;
+  function calculateLove(){
+  let nameA = sanitizeName(yourNameInput.value);
+  let nameB = sanitizeName(partnerNameInput.value);
+  yourNameInput.value = nameA;
+  partnerNameInput.value = nameB;
 
-      if(!nameA || !nameB){
-        alert('Please enter both names!');
-        return;
-      }
+  if(!nameA || !nameB){
+    alert('Please enter both names!');
+    return;
+  }
 
-      // Random 10..100
-      const loveScore = Math.floor(Math.random() * 91) + 10;
+  // Random 50..100
+  const loveScore = Math.floor(Math.random() * 51) + 50;
 
-      calcBtn.disabled = true;
-      scoreRowEl.classList.add('pulse');
-      animateNumber(loveScore);
+  calcBtn.disabled = true;
+  scoreRowEl.classList.add('pulse');
+  animateNumber(loveScore);
 
-      // meter animation + glow intensity by score
-      requestAnimationFrame(() => {
-        meterFillEl.style.width = loveScore + '%';
-        const glow = Math.min(1, Math.max(0, (loveScore - 50)/50)); // 0..1
-        const glowPx = 6 + glow * 16;
-        meterFillEl.style.filter = `saturate(${1 + glow*0.4}) drop-shadow(0 0 ${glowPx}px rgba(255,110,166, ${0.35 + glow*0.25}))`;
-      });
+  requestAnimationFrame(() => {
+    meterFillEl.style.width = loveScore + '%';
+    const glow = Math.min(1, Math.max(0, (loveScore - 50)/50));
+    const glowPx = 6 + glow * 16;
+    meterFillEl.style.filter = `saturate(${1 + glow*0.4}) drop-shadow(0 0 ${glowPx}px rgba(255,110,166, ${0.35 + glow*0.25}))`;
+  });
 
-      messageEl.textContent = friendlyMessage(loveScore);
+  messageEl.textContent = friendlyMessage(loveScore);
 
-      // Celebratory heart burst around the button center
-      const btnRect = calcBtn.getBoundingClientRect();
-      heartBurst(btnRect.left + btnRect.width/2, btnRect.top + btnRect.height/2);
+  const btnRect = calcBtn.getBoundingClientRect();
+  heartBurst(btnRect.left + btnRect.width/2, btnRect.top + btnRect.height/2);
 
-      setTimeout(() => {
-        calcBtn.disabled = false;
-        scoreRowEl.classList.remove('pulse');
-      }, 1000);
-    }
+  setTimeout(() => {
+    calcBtn.disabled = false;
+    scoreRowEl.classList.remove('pulse');
+  }, 1000);
+}
+
 
     form.addEventListener('submit', (e) => {
       e.preventDefault();
